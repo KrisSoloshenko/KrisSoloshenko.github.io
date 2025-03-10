@@ -29,10 +29,7 @@ body {
 
 
 @media screen and (max-width: 1200px) {
-    .body{
-        font-size: 12px;
-    }
-    
+ 
     .photo-wrapper {
         height: 40vh;
         width: 100%;
