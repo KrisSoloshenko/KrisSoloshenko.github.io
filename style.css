@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url(media/ph4.JPEG);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -27,17 +27,19 @@ body {
     font-size: 3em;
 }
 
-@media screen and (min-width: 300px) and (max-width: 120px){
-    .photo-wrapper{
-        height: 100vh;
+
+@media screen and (max-width: 1200px) {
+    .body{
+        font-size: 12px;
+    }
+    
+    .photo-wrapper {
+        height: 40vh;
+        width: 100%;
         background-image: url(media/ph4.JPEG);
-        background-size: auto;
-        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .content{
-        font-size: 2em;
-    }   
 }
