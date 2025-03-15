@@ -31,7 +31,7 @@ body {
 
 @media screen and (max-width: 1000px) {
     body{
-        font-size: smaller;
+        font-size: medium;
     }
 }
 
@@ -134,4 +134,23 @@ ul li {
 section h2{
     margin: 0;
     padding-top: 0;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  font-size: 24px;
+  color: #fff;
+  background: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+ 
+.back-to-top:hover {
+  background: #333;
+  text-decoration: none;
 }
