@@ -140,7 +140,7 @@ section h2{
   position: fixed;
   bottom: 0;
   left: 40px;
-  display: none;
+  display: block;
   font-size: 24px;
   color: blue;
   background: antiquewhite;
